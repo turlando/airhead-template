@@ -18,8 +18,18 @@
 <body>
 <div id="container">
 <main>
-<div class="vertical">
-   <div class="horizontal">
+
+<!-- header component -->
+<header>
+    <h1>AirHead</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum non
+       odio neque. Ut tempor molestie scelerisque. Donec bibendum vestibulum
+       neque, non aliquam justo pulvinar et.</p>
+</header>
+
+<!-- player component -->
+<section>
+    <div class="horizontal">
         <div class="box box-left button-group">
             <button><i class="fa fa-play"></i></button>
             <button><i class="fa fa-step-forward"></i></button>
@@ -28,30 +38,48 @@
         </div>
         <div class="box box-right">
             <p><i class="fa fa-music"></i>
-               <span>Squarepusher - Tundra</span>
-            </p>
+                <span>Squarepusher - Tundra</span></p>
         </div>
     </div>
-   <div class="horizontal">
-        <div class="box box-left button-group">
-            <button><i class="fa fa-folder-open"></i></button>
-            <button><i class="fa fa-upload"></i></button>
+</section>
+
+<!-- upload component -->
+<section>
+    <h2>Upload</h2>
+    <div class="vertical">
+
+        <div class="horizontal">
+            <div class="box box-left button-group">
+                <button><i class="fa fa-folder-open"></i></button>
+                <button><i class="fa fa-upload"></i></button>
+            </div>
+            <div class="box box-right">
+                <p><i class="fa fa-file-o"></i>
+                   <span>No file selected.</span></p>
+            </div>
         </div>
-        <div class="box box-right">
-            <p><i class="fa fa-file-o"></i>
-               <span>No file selected.</span></p>
+
+        <div class="horizontal">
+            <div class="box box-left">
+                <p><i class="fa fa-check"></i>
+                    <span>Done!</span></p>
+            </div>
+            <div class="box box-right">
+                <p><i class="fa fa-plus"></i>
+                   <span>DJ Brisk - Airhead</span></p>
+            </div>
         </div>
+
+        <div class="horizontal">
+            <div class="box box-left"><progress></progress></div>
+            <div class="box box-right">
+                <p>Transcoding...</p>
+            </div>
+        </div>
+
     </div>
-   <div class="horizontal">
-        <div class="box box-left">
-            <progress></progress>
-        </div>
-        <div class="box box-right">
-            <p><i class="fa fa-plus"></i>
-               <span>DJ Brisk - Airhead</span></p>
-        </div>
-    </div>
-</div>
+</section>
+
 </main>
 </div>
 </body>

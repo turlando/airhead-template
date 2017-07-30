@@ -33,8 +33,22 @@ main {
 
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ *  TEXT                                                                     *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+h1, h2 {
+    margin-top: 0;
+    margin-bottom: 0.3rem;
+    color: #000;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
  *  LAYOUT                                                                   *
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+header, section {
+    margin-bottom: 1rem;
+}
 
 .vertical {
     border: solid 1px rgb(203, 203, 203);
@@ -43,6 +57,11 @@ main {
 
 .horizontal {
     height: 2.5rem;
+    border: solid 1px rgb(203, 203, 203);
+}
+
+.vertical > .horizontal {
+    border: none;
     border-bottom: solid 1px rgb(203, 203, 203);
 }
 
@@ -50,6 +69,7 @@ main {
     display: inline-flex;
     height: 100%;
     border-right: solid 1px rgb(203, 203, 203);
+    text-align: center;
     justify-content: center;
     align-items: center;
 }
