@@ -1,3 +1,11 @@
+/* Anything required to get rid of inconsistencies between various browesers
+ * must stay here.
+ *
+ * If something is not the behavious you expected but renders the same across
+ * browser then it must go in site.css.
+ */
+
+
 p {
     /* Chromium will apply a default margin to any p element. */
     -webkit-margin-before: 0;
