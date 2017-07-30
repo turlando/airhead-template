@@ -56,7 +56,7 @@ header, section {
 }
 
 .horizontal {
-    height: 2.5rem;
+    height: 2.25rem;
     border: solid 1px #cbcbcb;
 }
 
@@ -161,7 +161,7 @@ thead {
 }
 
 th, td {
-    height: 2rem;
+    height: 2.25rem;
     padding: 0.3rem;
     border-bottom: 1px solid #cbcbcb;
     white-space: nowrap;
